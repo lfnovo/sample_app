@@ -9,4 +9,9 @@ module ApplicationHelper
       "#{base_title} | #{@title}"
     end
   end
+  
+  def logo
+    link_to image_tag("http://railstutorial.org/images/sample_app/logo.png", :alt => "Sample App", :class => "round") , root_path
+  end
+
 end
