@@ -131,3 +131,10 @@ td.sidebar {
   margin-bottom: -15px;
 }
 
+/* register */
+
+div.field, div.actions {
+  margin-bottom: 10px;
+}
+
+
